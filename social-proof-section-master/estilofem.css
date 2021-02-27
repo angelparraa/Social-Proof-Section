@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    background-image: url("/images/bg-pattern-top-desktop.svg");
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.top {
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.big-heading h1 {
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(81,31,80)
+}
+
+.big-heading p {
+    font-size: .9rem;
+    color: #aaa;
+}
+
+.customer-rating {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(247,242,248);
+    border-radius: 10px;
+    padding: .7rem 1.5rem;
+    margin-bottom: 1rem;
+    font-size: .6rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.ratings-img {
+    padding-right: .6rem;
+}
+
+.rating-1st {
+    margin-right: 6rem;
+}
+
+.rating-2nd {
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+.rating-3rd {
+    margin-left: 6rem;
+}
+
+.bottom-rating {
+    margin-top: 3rem;
+}
+
+.rating-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: rgb(81,31,80);
+    border-radius: 8px;
+    width: 350px;
+    height: 180px;
+    margin-right: 2.5rem;
+}
+
+.profile {
+    display: flex;
+    margin: .8rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+    margin-right: .7rem;
+}
+
+.profile-detail h3 {
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 500;
+    padding-bottom: .2rem;
+}
+
+.profile-detail h5 {
+    font-size: .8rem;
+    color: rgb(134, 126, 126);
+}
+
+.review {
+    text-align: center;
+}
+
+.review p {
+    font-size: .7rem;
+    color: #fff;
+    margin-bottom: 1.4rem;
+    line-height: 1.1rem;
+}
+
+.rating-card-2 {
+    margin-top: 1.5rem;
+}
+
+.rating-card-3 {
+    margin-top: 3rem;
+}
+
+@media (max-width: 475px) {
+    .top h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .top p {
+        text-align: center;
+        font-size: .7rem;
+    }
+
+    .ratings {
+        margin: 1px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .customer-rating {
+        width: 300px;
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+        align-items: center;
+    }
+
+    .rating-1st, .rating-2nd, .rating-3rd {
+        margin: 0 auto;
+    }
+
+    .rating-card {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+     }
+
+     .card {
+        margin-right: 0;
+     }
+
+     .rating-card-2 {
+
+     }
+
+     .rating-card-3 {
+        margin-top: 1.5rem;
+     }
+}
